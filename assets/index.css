@@ -33,8 +33,14 @@ body {
   margin-left: 20px;
 }
 
-#films li::before {
-  content: "";
+#films li {
+    list-style-type: none;
+    padding: 0; 
+    border: 1px solid #ccc;
+    margin: 5px; 
+    padding: 10px;
+    font-style: italic;
+    background: honeydew;
 }
 
 .film {
